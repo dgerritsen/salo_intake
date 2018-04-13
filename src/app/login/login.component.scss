@@ -1,0 +1,16 @@
+form {
+  width: calc(100vw - 40px);
+  margin-left: 20px;
+  text-align: center;
+  input {
+    width: 100%;
+  }
+  button {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.mat-form-field {
+  width: 100%;
+}

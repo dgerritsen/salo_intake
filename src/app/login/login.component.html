@@ -1,0 +1,16 @@
+<div style="text-align: center; margin: 30px 0;">
+  <img src="https://webshop.salo.nl/content/files/images/salo%20logo%2070%20jaar_2.jpg">
+</div>
+<form (submit)="alert('egadg')">
+  <mat-form-field>
+    <input matInput placeholder="Gebruikersnaam">
+    <span matSuffix><mat-icon>person</mat-icon></span>
+  </mat-form-field>
+  <mat-form-field>
+    <input type="password" matInput placeholder="Wachtwoord">
+    <span matSuffix><mat-icon>lock</mat-icon></span>
+  </mat-form-field>
+  <div style="text-align: center;">
+    <button mat-raised-button color="primary" type="submit" (click)="login()">Inloggen</button>
+  </div>
+</form>
